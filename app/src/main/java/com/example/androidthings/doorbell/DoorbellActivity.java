@@ -35,6 +35,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Map;
 
+
+
 /**
  * Doorbell activity that capture a picture from the Raspberry Pi 3
  * Camera on a button press and post it to Firebase and Google Cloud

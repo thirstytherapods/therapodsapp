@@ -15,6 +15,7 @@
  */
 package com.example.androidthings.doorbell;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.ImageFormat;
 import android.hardware.camera2.CameraAccessException;
@@ -69,6 +70,7 @@ public class DoorbellCamera {
     /**
      * Initialize the camera device
      */
+    @SuppressLint("MissingPermission")
     public void initializeCamera(Context context,
                                  Handler backgroundHandler,
                                  ImageReader.OnImageAvailableListener imageAvailableListener) {
